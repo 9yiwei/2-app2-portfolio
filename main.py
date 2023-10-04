@@ -9,7 +9,7 @@ with col1:
 
 with col2:
     st.title("Howard Chou")
-    content = """
+    content1 = """
     My last job was as a software project assistant, so I understand the program development process and due to work 
     requirements, I will need to conduct website testing and record bugs, prepare relevant test documents, etc.
     
@@ -19,4 +19,9 @@ with col2:
     Because I understand my own shortcomings in programming, I have continued to self-study Python-related courses 
     on the website so far.
     """
-    st.info(content)
+    st.info(content1)
+
+content2 = """
+Below you can find some of the apps I have built in Python. Feel free to contact me!
+"""
+st.write(content2)
